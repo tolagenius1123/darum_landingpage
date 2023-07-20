@@ -7,7 +7,7 @@ import Button from "./Button";
 const Navbar = () => {
 	const [isMenuToggled, setIsMenuToggled] = useState(false);
 	return (
-		<div className="bg-white w-full font-manrope px-6 sm:px-10 md:px-20 lg:px-20 xl:px-20 py-8 flex items-center justify-between duration-500 shadow-md z-10 fixed">
+		<div className="bg-white w-full font-manrope px-6 md:px-20 lg:px-20 xl:px-20 py-8 flex items-center justify-between duration-500 shadow-md z-10 fixed">
 			<div className="flex items-center md:gap-10 lg:gap-28">
 				<img
 					src={darumLogo}
