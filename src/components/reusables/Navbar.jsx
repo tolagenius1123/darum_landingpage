@@ -8,13 +8,13 @@ const Navbar = () => {
 	const [isMenuToggled, setIsMenuToggled] = useState(false);
 	return (
 		<div className="bg-white w-full font-manrope px-6 md:px-20 lg:px-20 xl:px-20 py-8 flex items-center justify-between duration-500 shadow-md z-10 fixed">
-			<div className="flex items-center md:gap-10 lg:gap-28">
+			<div className="flex items-center md:gap-10 lg:gap-20">
 				<img
 					src={darumLogo}
 					alt="darum_logo"
 					className="h-17 w-17 cursor-pointer"
 				/>
-				<div className="hidden gap-5 items-center  xl:gap-20 font-normal text-lg lg:flex">
+				<div className="hidden gap-5 items-center  xl:gap-10 font-normal text-lg lg:flex">
 					<Link to="/" className="hover:text-[#F46F3B]">
 						Partners
 					</Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
 			<div className=" flex items-center gap-5">
 				<Button
 					btnType="button"
-					btnStyle="hidden lg:flex bg-[#F46F3B] text-white text-xl rounded-[8px] px-6 py-3 hover:bg-[#ea635f]"
+					btnStyle="hidden lg:flex bg-[#F46F3B] text-white text-lg rounded-[8px] px-6 py-3 hover:bg-[#ea635f]"
 					btnTitle="Contact Us"
 				/>
 				<button
